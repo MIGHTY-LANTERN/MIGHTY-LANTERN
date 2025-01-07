@@ -1,0 +1,32 @@
+body {
+    background: linear-gradient(#97b3df 0%, #00ff93 40%, #08ff00 100%);
+}
+
+.logo {
+    width: 50px; /* Atur lebar menjadi 50px */
+    height: 50px; /* Atur tinggi menjadi 50px */
+    object-fit: cover; /* Menjaga proporsi gambar jika ukurannya berbeda */
+}
+
+
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.profileimage {
+    width: 200px;
+    border-radius: 25px;
+}
+.profile h2 {
+    color: #ffffff;
+}
+.profile h4{
+    color: #ffffff;
+}
+.biodata {
+    margin-top: -9rem; /* Naik ke atas sebesar 2rem */
+    position: relative; /* Memastikan tetap dalam konteks tata letak */
+    font-weight: bold;
+}
